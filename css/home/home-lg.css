@@ -1,0 +1,38 @@
+/*Large Screens*/
+@media(min-width: 901px) and (max-width:1100px) {
+
+    .container {
+
+        display: block;
+        grid-template-rows: 50px 800px 50px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "sd sd sd ct ct ct ct ct"
+            "ft ft ft ft ft ft ft ft";
+
+        /*border: 2px solid yellow;*/
+
+    }
+
+
+    #nested-grid {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        /*border: 2px solid red;*/
+    }
+
+    .card {
+
+        width: auto;
+        height: 240px;
+    }
+
+    .welcome-title {
+        font-size: large;
+    }
+
+    .blog-page-title {
+        font-size: large;
+    }
+}

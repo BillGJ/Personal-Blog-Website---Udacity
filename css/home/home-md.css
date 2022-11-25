@@ -1,0 +1,40 @@
+/*Medium Screens*/
+@media (min-width: 600px) and (max-width: 900px) {
+
+    .container {
+
+        display: block;
+        align-items: center;
+        justify-content: center;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas:
+            "hd hd hd"
+            "sd ct ct"
+            "ft ft ft";
+
+    }
+
+    #nested-grid {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        /*border: 2px solid red;*/
+    }
+
+    .card {
+
+        width: auto;
+        height: 240px;
+    }
+
+    .welcome-title {
+        font-size: medium;
+    }
+
+    .blog-page-title {
+        font-size: medium;
+    }
+
+}

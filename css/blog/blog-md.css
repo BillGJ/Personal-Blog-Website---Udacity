@@ -1,0 +1,30 @@
+/*Medium Screens*/
+@media (min-width: 600px) and (max-width: 900px) {
+
+    .container {
+
+        display: block;
+        align-items: center;
+        justify-content: center;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas:
+            "hd hd hd"
+            "ct ct sd"
+            "ft ft ft";
+
+    }
+
+    .blog-page-title {
+        font-size: medium;
+    }
+
+    .grid-item {
+        width: auto;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}

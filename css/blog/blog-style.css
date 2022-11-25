@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+}
+
+.round {
+    display: block;
+    border: 1px solid #02b3e4;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+    margin: auto;
+}
+
+.welcome-title,
+.footer {
+    color: white;
+}
+
+.welcome-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+.welcome-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.social-links {
+    margin-left: auto;
+    order: 2;
+}
+
+.fa {
+    padding: 4px;
+    font-size: 6px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+
+.fa-facebook {
+    background: white;
+    color: #3B5998;
+}
+
+.fa-twitter {
+    background: white;
+    color: #55ACEE;
+}
+
+.fa-instagram,
+.fa-linkedin {
+    background: white;
+    color: #125688;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+.code-block {
+
+    border: 2px solid black;
+}
+
+blockquote {
+    font-size: 1.4em;
+    width: 60%;
+    margin: 50px auto;
+    font-family: Open Sans;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid #02b3e4;
+    line-height: 1.6;
+    position: relative;
+    background: gray;
+}
+
+blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: #78C0A8;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+blockquote::after {
+    content: '';
+}
+
+blockquote span {
+    display: block;
+    color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.blog-title {
+    text-align: center;
+    text-decoration: underline;
+}
